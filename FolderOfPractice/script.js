@@ -24,7 +24,6 @@
 // console.log(arr.splice(3, 1, ...arr[3]));
 // console.log(arr)
 
-
 //Is all elements in arr are numbers?
 
 // let arr = [1, 2, 3, 4, "gill"];
@@ -34,6 +33,18 @@
 //   })
 // );
 
-
-
 //Q. Is Prime?
+
+let number = 23;
+
+// prime ---> 1 and 23 (itself) division only
+
+let flag = true;
+
+for (let i = 2; i < number; ++i) {
+    if(number % i === 0){
+        flag = false
+    }
+}
+
+console.log(`${number} is Prime? `, flag);
