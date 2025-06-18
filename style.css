@@ -1,0 +1,14 @@
+body{
+    background-color: #fff;
+}
+
+.dark-mode{
+    background-color: black;
+}
+
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}

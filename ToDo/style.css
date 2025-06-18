@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  margin: 100px auto;
+  background-color: rgb(228, 225, 225);
+  max-width: 40rem;
+  border: 1.5px solid black;
+  border-radius: 22px;
+  padding: 22px;
+}
+
+.container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 5px;
+}
+
+.container .inputBtn {
+  display: flex;
+  gap: 16px;
+  width: 100%;
+}
+
+.container .inputBtn input {
+  padding: 10px;
+  width: 80%;
+  font-size: 1rem;
+  border: 1.5px solid rgb(111, 52, 52);
+  border-radius: 22px;
+}
+
+.container .inputBtn button {
+  padding: 5px;
+  width: 20%;
+  font-size: 1rem;
+  border: 1.5px solid rgb(89, 147, 80);
+  border-radius: 22px;
+}
+.container .todoItems {
+    width: 100%;
+}
+
+.container .todoItems .liDelete {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+}
+
+.container .todoItems .liDelete p{
+    width: 80%;
+    border-radius: 22px;
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.container .todoItems .liDelete button {
+  padding: 5px;
+  width: 20%;
+  font-size: 1rem;
+  border: 1px solid salmon;
+  border-radius: 22px;
+}

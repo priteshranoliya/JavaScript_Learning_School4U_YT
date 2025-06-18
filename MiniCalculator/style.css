@@ -1,0 +1,110 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.calculator-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  gap: 10px;
+  max-width: 20rem;
+  max-height: 24rem;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 16px;
+  border: 1px solid saddlebrown;
+  background-color: rgb(52, 49, 49);
+}
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+.calculator .inputDiv{
+    width: 100%;
+}
+.calculator .inputDiv input {
+  padding: 10px;
+  border-radius: 6px;
+  width: 100%;
+  border: 1px solid saddlebrown;
+  background-color: black;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.clearPlus,
+.oneTwoThreeMinus,
+.fourFiveSixMul,
+.sevenEightNineDivide,
+.zeroDotEqual {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+}
+
+.clearBtn {
+  width: 80%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid saddlebrown;
+  color: aliceblue;
+  background-color: #cc4b4b;
+  font-size: 1.2rem;
+}
+
+.plusBtn,
+.minusBtn,
+.mulBtn,
+.divideBtn {
+  width: 20%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid saddlebrown;
+  color: rgb(49, 77, 101);
+  background-color: #e6e166;
+  font-size: 1.2rem;
+}
+
+.oneBtn,
+.twoBtn,
+.threeBtn,
+.fourBtn,
+.fiveBtn,
+.sixBtn,
+.sevenBtn,
+.eightBtn,
+.nineBtn,
+.zeroBtn,
+.dotBtn {
+  width: 24%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid saddlebrown;
+  color: rgb(245, 245, 245);
+  background-color: #0b0b09;
+  font-size: 1.2rem;
+}
+
+.equalBtn {
+  width: 60%;
+  padding: 6px;
+  border-radius: 6px;
+  border: 1px solid saddlebrown;
+  color: rgb(245, 245, 245);
+  background-color: #202c99;
+  font-size: 1.2rem;
+}

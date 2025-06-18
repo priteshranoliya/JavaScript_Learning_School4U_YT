@@ -1,0 +1,59 @@
+body {
+  background-color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  font-size: 60px;
+  background-color: antiquewhite;
+  border-radius: 100px;
+  padding: 10px 30px;
+  color: blue;
+}
+
+.container {
+  justify-items: center;
+}
+
+.main {
+  justify-items: center;
+  margin: 20px;
+}
+
+.randomBtn {
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: brown;
+  color: aliceblue;
+}
+
+#inputTxt {
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  width: 400px;
+}
+
+.applyBtn {
+  margin: 10px;
+  font-size: 20px;
+  border: 2px solid black;
+  border-radius: 50px;
+  padding: 10px;
+  background-color: brown;
+  color: aliceblue;
+}
+
+.para {
+  font-size: 30px;
+  border: 1px solid salmon;
+  border-radius: 50px;
+  padding: 10px;
+  font-weight: 10px;
+  background-color: #fff;
+}
