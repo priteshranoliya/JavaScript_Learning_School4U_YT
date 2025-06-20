@@ -75,7 +75,6 @@
 
 // console.log(newSetArr, Array.isArray(newSetArr));
 
-
 //Spread Operator in JS Objects
 // let obj = {
 //     name: "pritesh",
@@ -87,7 +86,6 @@
 
 // console.log(obj)
 
-
 // const arr = [1, 2, [3, 4]];
 // const shallow = [...arr];
 
@@ -97,14 +95,12 @@
 // console.log(shallow);
 // console.log(arr);
 
-
 // const arr = [1, 2, [3, 4]];
 
 // const deep = structuredClone(arr);
 // deep[2][2] = 99;
 
 // console.log(arr)
-
 
 // //Removed Punctation marks etc....
 // let str = "A man, are wonder!";
@@ -117,7 +113,34 @@
 // }
 // console.log(modifyStr.toLowerCase());
 
+// //New Question
+// function strWithAlphabeticalOrders(str) {
+//   //   return str.split("").sort().join("");
+//   let words = str.split(" ").sort();
+//   let res = words.map((element) => {
+//     return element.split("").sort().join("");
+//   });
 
+//   return (res.join(" "));
+// }
+// let finalStr = strWithAlphabeticalOrders("Pritesh Ranoliya Abcd");
+// console.log(finalStr);
+
+// //Q.26
+// function firstLetterCapitalize(str){
+//     let res = str.split(" ").map((item,idx,str) => {
+//         str[idx] = str[idx][0].toUpperCase() + str[idx].slice(1);
+//         return str[idx];
+//     })
+//     return res;
+// }
+// console.log(firstLetterCapitalize("pritesh ranoliya Abcd zyx"));
+
+// //Q.27
+// function firstNElementsOfArray(arr, n) {
+//   return arr.splice(0, n);
+// }
+// console.log(firstNElementsOfArray([2, 3, 5, 1, 102, 192, 23], 10));
 
 
 
