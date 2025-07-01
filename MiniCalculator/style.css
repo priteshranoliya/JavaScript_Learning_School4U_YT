@@ -108,3 +108,29 @@ html {
   background-color: #202c99;
   font-size: 1.2rem;
 }
+
+.container {
+  position: relative;
+  height: 200px;
+  top: 20px;
+  border: 2px solid black;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+}
+
+.relative {
+  position: relative;
+  top: 50px;
+  left: 30px;
+  background: green;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: red;
+}
