@@ -1,12 +1,99 @@
-# React + Vite
+# 🧠 JavaScript Mastery — Learning from School4U
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my JavaScript learning repository!
+This repo is a collection of all my code, notes, and mini-projects as I follow the [JavaScript Playlist](https://youtube.com/playlist?list=PLr60VaMrue75A027vE6pIsaoAU6sj3t7k&si=cA7WZsI5o8n_xnu1) by **[School4U | Programming School](https://www.youtube.com/@coding_school4u)** on YouTube.
 
-Currently, two official plugins are available:
+## 📚 What This Repo Contains
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* ✔️ Hands-on practice code for **each concept**
+* 🧪 Self-written examples and variations for deep understanding
+* 💻 Mini-projects and exercises
+* 💡 Personal notes and explanations (where needed)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Topics Covered
+
+> Updated continuously as I progress through the playlist.
+
+* ✅ JavaScript Basics (variables, data types, operators)
+* ✅ Control Flow (if/else, switch, loops)
+* ✅ Functions & Scope
+* ✅ Arrays & Objects
+* ✅ DOM Manipulation
+* ✅ Asynchronous JavaScript (callbacks, promises, async/await)
+* ✅ APIs and Fetch
+* ✅ Event Handling
+* ✅ Error Handling
+* ✅ ES6+ Concepts (let, const, arrow functions, destructuring, etc.)
+* ✅ Coding Challenges / Assignments
+
+---
+
+## 📂 Folder Structure
+
+```
+javascript-school4u/
+│
+├── 01_basics/
+├── 02_control-flow/
+├── 03_functions/
+├── 04_arrays-objects/
+├── 05_dom/
+├── 06_async/
+├── 07_mini-projects/
+├── 08_api-fetch/
+└── README.md
+```
+
+---
+
+## 🚀 How to Use
+
+You can clone this repo and follow along:
+
+```bash
+git clone https://github.com/<your-username>/javascript-school4u.git
+cd javascript-school4u
+```
+
+Each folder is organized by topic/lesson, and contains commented code and examples.
+
+---
+
+## 🌟 Why This Repo?
+
+* 📖 To reinforce JavaScript concepts by writing and revising code
+* 💼 To showcase consistent learning and growth
+* 🌐 For open-source contribution and collaboration
+* 🔍 For interview prep and future reference
+
+---
+
+## 📌 About the Playlist
+
+* 🎮 [JavaScript Full Course Playlist by School4U](https://youtube.com/playlist?list=PLr60VaMrue75A027vE6pIsaoAU6sj3t7k&si=cA7WZsI5o8n_xnu1)
+* 🧑‍🏫 Clear explanations with visuals
+* 👨‍💻 Project-based learning
+* 🥿 Completely free and beginner-friendly
+
+---
+
+## 🔗 Connect with Me
+
+* GitHub: [@your-username](https://github.com/your-username)
+* LinkedIn: [Your Full Name](https://www.linkedin.com/in/yourprofile/)
+* Twitter: [@yourhandle](https://twitter.com/yourhandle) *(if any)*
+
+---
+
+## 🙏 Credits
+
+Thanks to [School4U](https://www.youtube.com/@coding_school4u) for this amazing JavaScript series.
+This is a self-practice repo and not officially affiliated.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the [MIT License](LICENSE).
