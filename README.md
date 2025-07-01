@@ -81,9 +81,8 @@ Each folder is organized by topic/lesson, and contains commented code and exampl
 
 ## 🔗 Connect with Me
 
-* GitHub: [@your-username](https://github.com/your-username)
-* LinkedIn: [Your Full Name](https://www.linkedin.com/in/yourprofile/)
-* Twitter: [@yourhandle](https://twitter.com/yourhandle) *(if any)*
+* GitHub: [@priteshranoliya](https://github.com/priteshranoliya)
+* LinkedIn: [Pritesh Ranoliya](https://www.linkedin.com/in/pritesh-ranoliya/)
 
 ---
 
